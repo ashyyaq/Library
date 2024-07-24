@@ -1,0 +1,14 @@
+﻿<Window x:Class="ThemeApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ThemeApp"
+        xmlns:controls="clr-namespace:CustomControlsLibrary;assembly=CustomControlsLibrary"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button Content="Switch to Light Theme" Click="SwitchToLightTheme"/>
+            <Button Content="Switch to Dark Theme" Click="SwitchToDarkTheme"/>
+            <controls:CustomControl />
+        </StackPanel>
+    </Grid>
+</Window>
